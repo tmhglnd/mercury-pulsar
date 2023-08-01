@@ -13,7 +13,7 @@ This is a simple plugin for Pulsar that allows you to evaluate Mercury code from
 
 ## 💻 Install
 
-Make sure that `ppm` (pulsar package manager) is installed. On linux, it should be automatically installed with atom. On OSX, go to the 'Atom' menu, and click 'Install Shell Commands'. On windows, it doesn't work as of now, read further. If you don't want to install it because it'd name collide with perl's ppm, replace the ppm command in the following actions with pulsar -p.
+Make sure that `ppm` (Pulsar Package Manager) is installed. On linux, it should be automatically installed with Atom. On OSX, go to the `Pulsar` menu and click `Install Shell Commands`.
 
 1. Download this repository via 
 
@@ -28,6 +28,8 @@ Make sure that `ppm` (pulsar package manager) is installed. On linux, it should 
 `$ ppm link .`
 
 ### For windows users
+
+Windows doesn't support `ppm`, instead use `npm` and the following steps:
 
 1. Download this repository via 
 
