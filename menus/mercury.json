@@ -1,0 +1,18 @@
+{
+    "context-menu": {
+        "atom-text-editor": []
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Mercury",
+            "submenu": [{
+                "label": "Evaluate",
+                "command": "mercury:eval"
+            }, {
+                "label": "Silence",
+                "command": "mercury:silence"
+            }]
+        }]
+    }]
+}

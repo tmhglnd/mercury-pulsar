@@ -1,0 +1,10 @@
+{
+	"atom-workspace atom-text-editor": {
+		"alt-enter": "mercury:eval",
+		"ctrl-enter": "mercury:eval",
+		"cmd-enter": "mercury:eval",
+		"alt-.": "mercury:silence",
+		"ctrl-.": "mercury:silence",
+		"cmd-.": "mercury:silence"
+	}
+}

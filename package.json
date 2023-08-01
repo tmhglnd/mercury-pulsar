@@ -1,0 +1,19 @@
+{
+  "name": "mercury",
+  "version": "1.0.0",
+  "description": "Live code electronic music with Mercury via the Pulsar editor",
+  "engines": {
+    "atom": "*"
+  },
+  "activationCommands": {
+    "atom-workspace": "atom-mercury:toggle"
+  },
+  "main": "./lib/main.js",
+  "author": "Timo Hoogland",
+  "license": "ISC",
+  "dependencies": {
+    "node-osc": "^8.0.12",
+    "osc-js": "^2.4.0",
+    "osc-min": "^1.1.2"
+  }
+}
