@@ -27,6 +27,8 @@ Make sure that `ppm` (Pulsar Package Manager) is installed. On linux, it should 
 
 `$ ppm link .`
 
+4. Restart Pulsar
+
 ### For windows users
 
 Windows doesn't support `ppm`, instead use `npm` and the following steps:
