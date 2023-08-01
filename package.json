@@ -9,8 +9,6 @@
   "author": "Timo Hoogland",
   "license": "ISC",
   "dependencies": {
-    "node-osc": "^8.0.12",
-    "osc-js": "^2.4.0",
     "osc-min": "^1.1.2"
   }
 }
