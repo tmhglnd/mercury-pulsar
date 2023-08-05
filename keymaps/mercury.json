@@ -1,5 +1,5 @@
 {
-	"atom-workspace atom-text-editor": {
+	"atom-workspace atom-text-editor:not([mini])": {
 		"alt-enter": "mercury:eval",
 		"ctrl-enter": "mercury:eval",
 		"cmd-enter": "mercury:eval",
