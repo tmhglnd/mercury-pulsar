@@ -5,6 +5,9 @@
 		"cmd-enter": "mercury:eval",
 		"alt-.": "mercury:silence",
 		"ctrl-.": "mercury:silence",
-		"cmd-.": "mercury:silence"
+		"cmd-.": "mercury:silence",
+		"alt-shift-r": "mercury:randomize",
+		"ctrl-shift-r": "mercury:randomize",
+		"cmd-shift-r": "mercury:randomize"
 	}
 }

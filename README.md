@@ -57,9 +57,11 @@ Windows doesn't support `ppm`, instead use `npm` and the following steps:
 
 5. Type some code and:
 
-	- Evaluate with `ctrl` `enter` 
+	- Evaluate with `cmd/ctrl/alt`+`enter` 
 
-	- Silence the sound with `ctrl` `.`
+	- Silence the sound with `cmd/ctrl/alt`+`.`
+
+	- Randomize variables `cmd/ctrl/alt`+`shift`+`r`
 
 ### Mercury Max version
 
