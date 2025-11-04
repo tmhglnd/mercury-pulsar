@@ -7,11 +7,20 @@
         "submenu": [{
             "label": "Mercury",
             "submenu": [{
+                "label": "Toggle REPL",
+                "command": "mercury:toggle"
+            }, {
                 "label": "Evaluate",
                 "command": "mercury:eval"
             }, {
                 "label": "Silence",
                 "command": "mercury:silence"
+            }, {
+                "label": "Randomize",
+                "command": "mercury:randomize"
+            }, {
+                "label": "Toggle Warnings",
+                "command": "mercury:warnings"
             }]
         }]
     }]
