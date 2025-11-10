@@ -1,7 +1,8 @@
 {
   "name": "mercury",
   "version": "1.1.5",
-  "description": "Live code electronic music with Mercury via the Pulsar editor",
+  "description": "Live code electronic music with the Mercury environment via the Pulsar editor",
+  "repository" : "https://github.com/tmhglnd/mercury-pulsar",
   "engines": {
     "atom": "*"
   },
