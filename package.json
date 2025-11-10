@@ -7,7 +7,7 @@
     "url": "https://github.com/tmhglnd/mercury-pulsar.git"
   },
   "engines": {
-    "atom": "*"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "main": "./lib/main.js",
   "author": "Timo Hoogland",
