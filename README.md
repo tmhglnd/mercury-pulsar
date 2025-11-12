@@ -13,7 +13,27 @@ This is a simple plugin for Pulsar that allows you to evaluate Mercury code from
 
 ## 💻 Install
 
-Make sure that `ppm` (Pulsar Package Manager) is installed. On linux, it should be automatically installed with Atom. On OSX, go to the `Pulsar` menu and click `Install Shell Commands`.
+The Mercury Pulsar plugin is now available through the built-in Package Manager in Pulsar. 
+
+1. Open Pulsar.app
+
+2. Click on Packages > Open Package Manager
+
+3. Search for `mercury`
+
+4. Click `Install`
+
+### Commandline
+
+You can also install the package through the commandline. Make sure that `ppm` (Pulsar Package Manager) is installed. On linux and windows, it should be automatically installed with Pulsar. On OSX, go to the `Pulsar` menu and click `Install Shell Commands`.
+
+1. Open the Terminal and type
+
+`ppm install tmhglnd/mercury`
+
+If `ppm` fails, you can also use `pulsar -p`
+
+Optionall you can also first clone this repository and install that manually:
 
 1. Download this repository via 
 
@@ -29,7 +49,7 @@ Make sure that `ppm` (Pulsar Package Manager) is installed. On linux, it should 
 
 4. Restart Pulsar
 
-### For windows users
+<!-- ### For windows users
 
 Windows doesn't support `ppm`, instead use `npm` and the following steps:
 
@@ -43,7 +63,7 @@ Windows doesn't support `ppm`, instead use `npm` and the following steps:
 
 3. Manually copy-paste the entire folder `mercury-pulsar` to
 
-`C:\Users\<username>\.pulsar\packages`
+`C:\Users\<username>\.pulsar\packages` -->
 
 ## 🎮 Usage
 
