@@ -1,0 +1,91 @@
+# Grammar for the Mercury Live Coding language
+# written by Timo Hoogland, www.timohoogland.com
+# 
+# Based on tutorial: http://manual.macromates.com/en/language_grammars
+
+scopeName: 'source.mcy'
+# The title that will show up in grammar selection and on your status bar.
+name: 'Mercury' 
+
+# An array of file extensions.
+fileTypes: [ 'mcy' ]
+
+limitLineLength: false
+firstLineMatch: ''
+foldingStartMarker: ''
+foldingStopMarker: ''
+patterns: [ # An array of individual pattern declarations.
+  {
+    # comments
+    match: '//.*$'
+    name: 'comment.line'
+  }
+  {
+    # string double quotes 
+    match: '\\"[^"]*\\"'
+    name: 'string.quoted.double'
+  }
+  {
+    # string single quotes
+    match: "\\'[^']*\\'"
+    name: 'string.quoted.single'
+  }
+  {
+    # string single backtick
+    match: '\\`[^`]*\\`'
+    name: 'string.quoted.other'
+  }
+  {
+    # OSC-addresses
+    match: '(\\/[^0-9/\\s)][^/)\\s]*){1,}'
+    name: 'string.quoted.other'
+  }
+  {
+    # parenthesis for functions
+    match : '[(){}]'
+    name : 'keyword.operator'
+  }
+  {
+    # brackets for arrays
+    match: '[\\[\\]!]+'
+    name: 'keyword.other'
+  }
+  {
+    # functions (a word followed by parenthesis)
+    match: '([^0-9\\s][^\\s\\(\\)\\[\\]]*)(\\s*)(\\()'
+    captures:
+      0 : name: ''
+      1 : name: 'entity.name.function'
+      2 : name: ''
+      3 : name: 'keyword.operator'
+  }
+  {
+    # keywords
+    match : '(new|list|set)(\\s+)([^0-9\\s]+)'
+    captures: 
+      0 : name: ''
+      1 : name: 'support.function'
+      2 : name: ''
+      3 : name: 'keyword.other'
+  }
+  {
+    # global
+    match : '(print|view|audio|record|silence|default)'
+    name : 'keyword.operator'
+  }
+  {
+    # various mathematical operators
+    match: '[+\\-*:/=><!?&^%$#@;,]+'
+    name: 'constant.character'
+  }
+  {
+    # numbers
+    match: '0x[a-f\\d]+|[-+]?(?:\\.\\d+|\\d+\\.?\\d*)(?:e[-+]?\\d+)?'
+    name: 'constant.numeric'
+  }
+  {
+    # any other word doesn't get any color coding
+    match: '[^0-9\\s][^\\s\\(\\)\\[\\]/]*'
+    name: ''
+  }
+]

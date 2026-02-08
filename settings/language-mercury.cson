@@ -1,0 +1,5 @@
+'.source.mcy':
+  'editor':
+    'commentStart': '// '
+    'commentDelimiters':
+      'line': '//'
