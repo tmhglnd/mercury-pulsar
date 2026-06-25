@@ -1,5 +1,5 @@
 {
-	"atom-workspace atom-text-editor:not([mini])": {
+	"atom-workspace atom-text-editor:not([data-grammar~='js'])": {
 		"alt-enter": "mercury:eval",
 		"ctrl-enter": "mercury:eval",
 		"cmd-enter": "mercury:eval",
